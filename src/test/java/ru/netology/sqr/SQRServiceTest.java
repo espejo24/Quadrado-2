@@ -6,8 +6,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SQRServiceTest {
     @Test
-    public void shouldCountSquares () {
-        SQRService service = new SQRService ();
+    public void shouldCountSquares() {
+        SQRService service = new SQRService();
         int count = 0;
         int lowLimit = 100;
         int highLimit = 500;
@@ -15,7 +15,6 @@ class SQRServiceTest {
         int actual = service.countSquares(lowLimit, highLimit);
         assertEquals(expected, actual);
     }
-
 
 
 }
